@@ -4,6 +4,9 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+#mission-section {
+  color: blue;
+}
 #gallery-section {
   background-color: red;
 }
