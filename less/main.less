@@ -1,9 +1,17 @@
 // out: ../css/main.css, sourcemap: true
 
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+// DO NOT WRITE CSS DIRECTLY IN THIS FILE !!! \\//\\//\\//\\//\\//\\//\\//\\//\\
+// DO NOT WRITE CSS DIRECTLY IN THIS FILE !!! \\//\\//\\//\\//\\//\\//\\//\\//\\
+// DO NOT WRITE CSS DIRECTLY IN THIS FILE !!! \\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+// Create a new .less file inside of the less folder.
+// Import that file into this file by using the @import syntax below.
+
 @import "vendor/elements.less";
 @import "colors.less";
 
-p {
-  .opacity(0.2);
-  color: @best-color;
-}
+@import "gallery-section.less";
