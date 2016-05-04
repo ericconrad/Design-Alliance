@@ -9,10 +9,10 @@
 }
 #bios-page {
   background-color: white;
-  background-width: 20%;
-  background-position: center 100px;
-  background-attachment: fixed;
-  background-repeat: repeat-x;
+}
+body {
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 100%;
 }
 #gallery-section {
   background-color: red;
