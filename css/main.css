@@ -1,0 +1,47 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+#mission-section {
+  color: blue;
+}
+#bios-page {
+  background-color: white;
+}
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+body {
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 120%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+span {
+  display: block;
+}
+.background {
+  background-color: black;
+}
+.content {
+  margin-left: 5%;
+  image: 10%;
+}
+#gallery-section {
+  background-color: red;
+}
+#global-footer {
+  background-color: blue;
+  color: white;
+}
+#global-navigation {
+  background-color: peachpuff;
+}
