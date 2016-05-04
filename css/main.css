@@ -8,9 +8,19 @@
   color: blue;
 }
 #bios-page {
+<<<<<<< HEAD
   background-color: white;
 }
 .clearfix:after {
+=======
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 120%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bios-page .clearfix:after {
+>>>>>>> origin/master
   content: " ";
   /* Older browser do not support empty content */
   visibility: hidden;
@@ -18,6 +28,7 @@
   height: 0;
   clear: both;
 }
+<<<<<<< HEAD
 body {
   background-image: url("../images/bios/backgroundbio.png");
   background-size: 120%;
@@ -38,6 +49,29 @@ span {
 #gallery-section {
   background-color: red;
 }
+=======
+#bios-page span {
+  display: block;
+}
+#bios-page .background {
+  background-color: black;
+}
+#bios-page .content {
+  margin-left: 5%;
+  image: 10%;
+}
+#gallery-page {
+  background-color: pink;
+}
+#gallery-section {
+  background-color: red;
+}
+img {
+  max-width: 300px;
+  max-height: auto;
+  display: block;
+}
+>>>>>>> origin/master
 #global-footer {
   background-color: blue;
   color: white;
@@ -45,3 +79,9 @@ span {
 #global-navigation {
   background-color: peachpuff;
 }
+<<<<<<< HEAD
+=======
+#individual-works {
+  background-color: peachpuff;
+}
+>>>>>>> origin/master
