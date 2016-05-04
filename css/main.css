@@ -7,6 +7,13 @@
 #mission-section {
   color: blue;
 }
+body#bios-page {
+  background-color: white;
+  background-width: 20%;
+  background-position: center 100px;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
 #gallery-section {
   background-color: red;
 }
