@@ -38,6 +38,11 @@
 #gallery-section {
   background-color: red;
 }
+img {
+  max-width: 300px;
+  max-height: auto;
+  display: block;
+}
 #global-footer {
   background-color: blue;
   color: white;
