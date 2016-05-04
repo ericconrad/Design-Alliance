@@ -8,7 +8,11 @@
   color: blue;
 }
 #bios-page {
-  background-color: white;
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 120%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #bios-page .clearfix:after {
   content: " ";
@@ -17,13 +21,6 @@
   display: block;
   height: 0;
   clear: both;
-}
-#bios-page body {
-  background-image: url("../images/bios/backgroundbio.png");
-  background-size: 120%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #bios-page span {
   display: block;
