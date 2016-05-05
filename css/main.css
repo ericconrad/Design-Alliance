@@ -13,10 +13,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
+.row:after,
+.group:after,
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+.center {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
@@ -48,7 +55,7 @@ html {
   align-items: center;
 }
 #gallery-section {
-  background-color: red;
+  background-color: #FFCE00;
 }
 #gallery-section #carousel nav {
   margin-top: 8px;
@@ -99,6 +106,9 @@ html {
 }
 #global-navigation {
   background-color: peachpuff;
+}
+#home {
+  background-color: #F7F3E2;
 }
 #individual-bio {
   background-color: grey;
