@@ -12,7 +12,8 @@
   margin: 0px;
 }
 #global-navigation {
-  background-color: peachpuff;
+  background-color: #3C3237;
+  color: #FFFFFF;
 }
 #home {
   background-color: #F7F3E2;
@@ -28,18 +29,18 @@
   width: 9px;
   height: 9px;
   margin-left: 15px;
-  border: 1px solid #9a9b9c;
+  border: 1px solid #A7A7A5;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   transition: background-color 0.2s ease-out;
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
 }
 #gallery-section #carousel nav a:hover {
-  background-color: #dddfe0;
+  background-color: #F7F3E2;
 }
 #gallery-section #carousel nav a.active {
-  background-color: #9a9b9c;
+  background-color: #A7A7A5;
 }
 #gallery-section #carousel .inner {
   width: 650px;
@@ -61,7 +62,7 @@
   display: block;
 }
 #mission-section {
-  color: blue;
+  color: #B7D6CD;
 }
 #who-section {
   background-color: #876479;
@@ -85,11 +86,11 @@
   clear: both;
 }
 #who-section .main-text {
-  color: #a092a1;
+  color: #a07e92;
   font-size: 23px;
 }
 #who-section .subtext {
-  color: #36112a;
+  color: #2f232a;
 }
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
@@ -113,7 +114,7 @@
   display: block;
 }
 #gallery-page {
-  background-color: pink;
+  background-color: #E53E30;
 }
 #gallery-page .gallery img {
   max-width: 300px;
@@ -121,7 +122,7 @@
   align-items: center;
 }
 #individual-bio {
-  background-color: grey;
+  background-color: #A7A7A5;
 }
 /*img {
 width: 600px;
