@@ -8,13 +8,23 @@
   color: blue;
 }
 #bios-page {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: white;
+}
+.clearfix:after {
+=======
+  background-image: url("../images/bios/backgroundbio.png");
+=======
   background-image: url("../images/bios/backgroundbio.jpg");
+>>>>>>> origin/master
   background-size: 120%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
 }
 #bios-page .clearfix:after {
+>>>>>>> origin/master
   content: " ";
   /* Older browser do not support empty content */
   visibility: hidden;
@@ -22,6 +32,28 @@
   height: 0;
   clear: both;
 }
+<<<<<<< HEAD
+body {
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 120%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+span {
+  display: block;
+}
+.background {
+  background-color: black;
+}
+.content {
+  margin-left: 5%;
+  image: 10%;
+}
+#gallery-section {
+  background-color: red;
+}
+=======
 #bios-page span {
   display: block;
 }
@@ -35,7 +67,7 @@
 #gallery-page {
   background-color: pink;
 }
-#gallery-page img {
+#gallery-page .gallery img {
   max-width: 300px;
   margin: 0 auto;
   align-items: center;
@@ -43,6 +75,7 @@
 #gallery-section {
   background-color: red;
 }
+<<<<<<< HEAD
 #gallery-section #carousel nav {
   float: right;
   margin-top: 8px;
@@ -78,6 +111,17 @@
   position: relative;
   float: left;
 }
+=======
+<<<<<<< HEAD
+img {
+  max-width: 300px;
+  max-height: auto;
+  display: block;
+}
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 #global-footer {
   background-color: blue;
   color: white;
@@ -85,6 +129,9 @@
 #global-navigation {
   background-color: peachpuff;
 }
+<<<<<<< HEAD
+=======
 #individual-works {
   background-color: peachpuff;
 }
+>>>>>>> origin/master
