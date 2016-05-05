@@ -9,11 +9,15 @@
 }
 #bios-page {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: white;
 }
 .clearfix:after {
 =======
   background-image: url("../images/bios/backgroundbio.png");
+=======
+  background-image: url("../images/bios/backgroundbio.jpg");
+>>>>>>> origin/master
   background-size: 120%;
   background-attachment: fixed;
   background-repeat: no-repeat;
