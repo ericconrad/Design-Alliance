@@ -1,0 +1,90 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+#mission-section {
+  color: blue;
+}
+#who-section .profile {
+  width: 20%;
+  float: left;
+  text-align: center;
+  background-color: #724b65;
+  margin-bottom: 2em;
+}
+#who-section .profile img {
+  width: 128px;
+  height: 128px;
+}
+#who-section a {
+  color: #a2a4a1;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #a2a4a1;
+  margin: 0;
+  display: inline-block;
+}
+#who-section a.see-all {
+  display: table;
+  margin: 0 auto;
+  clear: both;
+}
+#who-section a:hover {
+  color: #000000;
+}
+#who-section .main-text {
+  color: #a092a1;
+  font-size: 23px;
+}
+#who-section .subtext {
+  color: #36112a;
+}
+#bios-page {
+  background-image: url("../images/bios/backgroundbio.png");
+  background-size: 120%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bios-page .clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+#bios-page span {
+  display: block;
+}
+#bios-page .background {
+  background-color: black;
+}
+#bios-page .content {
+  margin-left: 5%;
+  image: 10%;
+}
+#gallery-page {
+  background-color: pink;
+}
+#gallery-section {
+  background-color: red;
+}
+img {
+  max-width: 300px;
+  max-height: auto;
+  display: block;
+}
+#global-footer {
+  background-color: blue;
+  color: white;
+}
+#global-navigation {
+  background-color: peachpuff;
+}
+#individual-works {
+  background-color: peachpuff;
+}
