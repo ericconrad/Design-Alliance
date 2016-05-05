@@ -4,6 +4,15 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 .clearfix:after {
   content: "";
   display: table;
@@ -43,7 +52,6 @@
   background-color: red;
 }
 #gallery-section #carousel nav {
-  float: right;
   margin-top: 8px;
 }
 #gallery-section #carousel nav a {
@@ -65,21 +73,22 @@
   background-color: #9a9b9c;
 }
 #gallery-section #carousel .inner {
-  clear: left;
   width: 650px;
-  height: 650px;
+  padding: 1em 0;
   overflow: hidden;
 }
 #gallery-section #carousel ul {
   width: 2600px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 #gallery-section #carousel ul li {
   position: relative;
   float: left;
 }
-img {
-  max-width: 300px;
-  max-height: auto;
+#gallery-section #carousel ul a,
+#gallery-section #carousel ul img {
   display: block;
 }
 #global-footer {
