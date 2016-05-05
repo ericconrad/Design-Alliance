@@ -125,9 +125,6 @@ img {
 #individual-bio {
   background-color: grey;
 }
-#individual-works {
-  background-color: white;
-}
 /*img {
 width: 600px;
 height: auto;
@@ -153,8 +150,16 @@ width:250px;
 left: 73.4%;
 }
 */
-#imgContainer {
-  float: left;
-  left: 40%;
+/*#img123{
+  float:left;
+  left:40%;
+  position: relative;
+  width:600px;
+}
+
+#img321{
+  float:left;
+  left:40%;
   position: relative;
 }
+*/
