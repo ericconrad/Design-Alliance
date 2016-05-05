@@ -32,6 +32,13 @@
   margin-left: 5%;
   image: 10%;
 }
+#gallery-page {
+  background-color: pink;
+}
+#gallery-page img {
+  max-width: 300px;
+  margin: 0 auto;
+}
 #gallery-section {
   background-color: red;
 }
