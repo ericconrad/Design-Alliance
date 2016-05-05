@@ -37,6 +37,19 @@ html {
   max-width: 1440px;
   margin: 0 auto;
 }
+.button {
+  color: #A7A7A5;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 0.625em;
+  border: 2px solid #A7A7A5;
+  margin: 0;
+  display: inline-block;
+}
+.button:hover {
+  color: #000000;
+  border-color: #000000;
+}
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
   background-size: 100%;
@@ -172,22 +185,10 @@ left: 73.4%;
   height: auto;
   max-height: 128px;
 }
-#who-section a {
-  color: #a2a4a1;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid #a2a4a1;
-  margin: 0;
-  display: inline-block;
-}
-#who-section a.see-all {
+#who-section .button.see-all {
   display: table;
   margin: 0 auto;
   clear: both;
-}
-#who-section a:hover {
-  color: #000000;
 }
 #who-section .main-text {
   color: #a092a1;
