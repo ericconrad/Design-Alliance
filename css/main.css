@@ -43,7 +43,7 @@
   color: #36112a;
 }
 #bios-page {
-  background-image: url("../images/bios/backgroundbio.png");
+  background-image: url("../images/bios/backgroundbio.jpg");
   background-size: 120%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -70,8 +70,48 @@
 #gallery-page {
   background-color: pink;
 }
+#gallery-page .gallery img {
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
+}
 #gallery-section {
   background-color: red;
+}
+#gallery-section #carousel nav {
+  float: right;
+  margin-top: 8px;
+}
+#gallery-section #carousel nav a {
+  float: left;
+  width: 9px;
+  height: 9px;
+  margin-left: 15px;
+  border: 1px solid #9a9b9c;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+}
+#gallery-section #carousel nav a:hover {
+  background-color: #dddfe0;
+}
+#gallery-section #carousel nav a.active {
+  background-color: #9a9b9c;
+}
+#gallery-section #carousel .inner {
+  clear: left;
+  width: 650px;
+  height: 650px;
+  overflow: hidden;
+}
+#gallery-section #carousel ul {
+  width: 2600px;
+}
+#gallery-section #carousel ul li {
+  position: relative;
+  float: left;
 }
 img {
   max-width: 300px;
