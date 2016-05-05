@@ -9,7 +9,7 @@
 }
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
-  background-size: 120%;
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,9 +25,6 @@
 #bios-page span {
   display: block;
 }
-#bios-page .background {
-  background-color: black;
-}
 #bios-page .content {
   margin-left: 5%;
   image: 10%;
@@ -38,6 +35,7 @@
 #gallery-page img {
   max-width: 300px;
   margin: 0 auto;
+  align-items: center;
 }
 #gallery-section {
   background-color: red;
@@ -48,6 +46,9 @@
 }
 #global-navigation {
   background-color: peachpuff;
+}
+#individual-bio {
+  background-color: green;
 }
 #individual-works {
   background-color: peachpuff;
