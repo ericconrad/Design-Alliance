@@ -4,43 +4,10 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-#mission-section {
-  color: blue;
-}
-#who-section .profile {
-  width: 20%;
-  float: left;
-  text-align: center;
-  background-color: #724b65;
-  margin-bottom: 2em;
-}
-#who-section .profile img {
-  width: 128px;
-  height: 128px;
-}
-#who-section a {
-  color: #a2a4a1;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid #a2a4a1;
-  margin: 0;
-  display: inline-block;
-}
-#who-section a.see-all {
+.clearfix:after {
+  content: "";
   display: table;
-  margin: 0 auto;
   clear: both;
-}
-#who-section a:hover {
-  color: #000000;
-}
-#who-section .main-text {
-  color: #a092a1;
-  font-size: 23px;
-}
-#who-section .subtext {
-  color: #36112a;
 }
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
@@ -118,6 +85,9 @@ img {
 #global-footer {
   background-color: blue;
   color: white;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
 }
 #global-navigation {
   background-color: peachpuff;
@@ -132,16 +102,6 @@ position: absolute;
 top: 50%;
 left: 50%;
 margin-left: -300px; /* width divided by 2 */
-#global-footer {
-  background-color: blue;
-  color: white;
-  width: 100%;
-  overflow: hidden;
-  margin: 0px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
 /*#name{
 position: absolute;
 left:1500px;
@@ -163,3 +123,41 @@ left: 73.4%;
   position: relative;
 }
 */
+#mission-section {
+  color: blue;
+}
+#who-section .profile {
+  width: 20%;
+  float: left;
+  text-align: center;
+  background-color: #724b65;
+  margin-bottom: 2em;
+}
+#who-section .profile img {
+  width: 128px;
+  height: 128px;
+}
+#who-section a {
+  color: #a2a4a1;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #a2a4a1;
+  margin: 0;
+  display: inline-block;
+}
+#who-section a.see-all {
+  display: table;
+  margin: 0 auto;
+  clear: both;
+}
+#who-section a:hover {
+  color: #000000;
+}
+#who-section .main-text {
+  color: #a092a1;
+  font-size: 23px;
+}
+#who-section .subtext {
+  color: #36112a;
+}
