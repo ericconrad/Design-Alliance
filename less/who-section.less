@@ -7,6 +7,7 @@
     float: left;
     text-align: center;
     background-color: #724b65;
+    margin-bottom: 2em;
 
     img {
       width: 128px;
@@ -18,11 +19,16 @@
     color: #a2a4a1;
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
-    width: 320px;
     padding: 10px;
     border: 2px solid #a2a4a1;
     margin: 0;
+    display: inline-block;
 
+    &.see-all {
+      display: table;
+      margin: 0 auto;
+      clear: both;
+    }
   }
 
   a:hover {
