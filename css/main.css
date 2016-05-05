@@ -24,22 +24,23 @@
 #gallery-section #carousel nav {
   margin-top: 8px;
 }
-#gallery-section #carousel nav a {
+#gallery-section #carousel nav button {
   float: left;
-  width: 9px;
-  height: 9px;
-  margin-left: 15px;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  margin-left: 1em;
   border: 1px solid #A7A7A5;
-  border-radius: 20px;
+  border-radius: 100%;
   background-color: #FFFFFF;
   transition: background-color 0.2s ease-out;
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
 }
-#gallery-section #carousel nav a:hover {
+#gallery-section #carousel nav button:hover {
   background-color: #F7F3E2;
 }
-#gallery-section #carousel nav a.active {
+#gallery-section #carousel nav button.active {
   background-color: #A7A7A5;
 }
 #gallery-section #carousel .inner {
@@ -57,9 +58,12 @@
   position: relative;
   float: left;
 }
-#gallery-section #carousel ul a,
+#gallery-section #carousel ul button,
 #gallery-section #carousel ul img {
   display: block;
+}
+#intro-section {
+  background-color: #FFFFFF;
 }
 #mission-section {
   color: #B7D6CD;
