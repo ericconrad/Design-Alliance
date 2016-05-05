@@ -35,9 +35,10 @@
 #gallery-page {
   background-color: pink;
 }
-#gallery-page img {
+#gallery-page .gallery img {
   max-width: 300px;
   margin: 0 auto;
+  align-items: center;
 }
 #gallery-section {
   background-color: red;
