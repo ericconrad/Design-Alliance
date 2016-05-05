@@ -1,0 +1,54 @@
+// main: partials.less
+
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.row:after,
+.group:after,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+
+.column {
+  width: 25%;
+  float: left;
+}
+
+.section {
+  padding: 3em 0;
+}
+
+.center {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  color: @medium-gray;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 0.625em;
+  border: 2px solid @medium-gray;
+  margin: 0;
+  display: inline-block;
+
+  &:hover {
+    color: @black;
+    border-color: @black;
+  }
+}
