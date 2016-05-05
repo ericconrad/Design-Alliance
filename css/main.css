@@ -43,6 +43,26 @@ img {
   max-height: auto;
   display: block;
 }
+#carousel nav {
+  float: right;
+  margin-top: 8px;
+}
+#carousel nav a {
+  float: left;
+  width: 9px;
+  height: 9px;
+  margin-left: 15px;
+  border: 1px solid #9a9b9c;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+}
+#carousel ul li {
+  psotion: relative;
+  float: left;
+}
 #global-footer {
   background-color: blue;
   color: white;
