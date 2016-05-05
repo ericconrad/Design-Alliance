@@ -38,21 +38,16 @@
 #gallery-page img {
   max-width: 300px;
   margin: 0 auto;
+  align-items: center;
 }
 #gallery-section {
   background-color: red;
 }
-<<<<<<< HEAD
-img {
-  max-width: 300px;
-  max-height: auto;
-  display: block;
-}
-#carousel nav {
+#gallery-section #carousel nav {
   float: right;
   margin-top: 8px;
 }
-#carousel nav a {
+#gallery-section #carousel nav a {
   float: left;
   width: 9px;
   height: 9px;
@@ -64,12 +59,25 @@ img {
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
 }
-#carousel ul li {
-  psotion: relative;
+#gallery-section #carousel nav a:hover {
+  background-color: #dddfe0;
+}
+#gallery-section #carousel nav a.active {
+  background-color: #9a9b9c;
+}
+#gallery-section #carousel .inner {
+  clear: left;
+  width: 650px;
+  height: 650px;
+  overflow: hidden;
+}
+#gallery-section #carousel ul {
+  width: 2600px;
+}
+#gallery-section #carousel ul li {
+  position: relative;
   float: left;
 }
-=======
->>>>>>> origin/master
 #global-footer {
   background-color: blue;
   color: white;
