@@ -20,6 +20,14 @@ html {
   display: table;
   clear: both;
 }
+.row {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+.section {
+  padding: 3em 0;
+}
 .center {
   width: 90%;
   max-width: 1440px;
@@ -144,16 +152,21 @@ left: 73.4%;
 #mission-section {
   color: blue;
 }
+#who-section {
+  background-color: #876479;
+}
 #who-section .profile {
   width: 20%;
+  padding: 0 0.5em;
   float: left;
   text-align: center;
-  background-color: #724b65;
   margin-bottom: 2em;
 }
 #who-section .profile img {
-  width: 128px;
-  height: 128px;
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+  max-height: 128px;
 }
 #who-section a {
   color: #a2a4a1;
