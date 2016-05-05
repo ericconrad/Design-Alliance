@@ -10,7 +10,7 @@
   #carousel {
 
     nav {
-      float: right;
+      // float: right;
       margin-top: 8px;
 
       a {
@@ -40,14 +40,18 @@
   // CAROUSEL INNER CSS FORMATTING
 
   #carousel .inner {
-    clear: left;
+    // clear: left;
     width: 650px;
-    height: 650px;
+    // height: 650px;
+    padding: 1em 0;
     overflow: hidden;
   }
 
   #carousel ul {
     width: 2600px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 
     li {
       position: relative;
@@ -60,11 +64,10 @@
       //   padding: 12px 0;
       // }
     }
-  }
-}
 
-img {
-  max-width: 300px;
-  max-height: auto;
-  display: block;
+    a,
+    img {
+      display: block;
+    }
+  }
 }
