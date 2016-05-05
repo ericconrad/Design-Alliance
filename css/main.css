@@ -4,153 +4,6 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-#global-footer {
-  background-color: #3C3237;
-  color: #FFFFFF;
-  width: 100%;
-  overflow: hidden;
-  margin: 0px;
-}
-#global-navigation {
-  background-color: peachpuff;
-}
-#home {
-  background-color: #F7F3E2;
-}
-#gallery-section {
-  background-color: #FFCE00;
-}
-#gallery-section #carousel nav {
-  margin-top: 8px;
-}
-#gallery-section #carousel nav a {
-  float: left;
-  width: 9px;
-  height: 9px;
-  margin-left: 15px;
-  border: 1px solid #9a9b9c;
-  border-radius: 20px;
-  background-color: #fff;
-  transition: background-color 0.2s ease-out;
-  -webkit-transition: background-color 0.2s ease-out;
-  -moz-transition: background-color 0.2s ease-out;
-}
-#gallery-section #carousel nav a:hover {
-  background-color: #dddfe0;
-}
-#gallery-section #carousel nav a.active {
-  background-color: #9a9b9c;
-}
-#gallery-section #carousel .inner {
-  width: 650px;
-  padding: 1em 0;
-  overflow: hidden;
-}
-#gallery-section #carousel ul {
-  width: 2600px;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-#gallery-section #carousel ul li {
-  position: relative;
-  float: left;
-}
-#gallery-section #carousel ul a,
-#gallery-section #carousel ul img {
-  display: block;
-}
-#mission-section {
-  color: blue;
-}
-#who-section {
-  background-color: #876479;
-}
-#who-section .profile {
-  width: 20%;
-  padding: 0 0.5em;
-  float: left;
-  text-align: center;
-  margin-bottom: 2em;
-}
-#who-section .profile img {
-  width: 100%;
-  max-width: 128px;
-  height: auto;
-  max-height: 128px;
-}
-#who-section .button.see-all {
-  display: table;
-  margin: 0 auto;
-  clear: both;
-}
-#who-section .main-text {
-  color: #a092a1;
-  font-size: 23px;
-}
-#who-section .subtext {
-  color: #36112a;
-}
-#bios-page {
-  background-image: url("../images/bios/backgroundbio.jpg");
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#bios-page span {
-  display: block;
-}
-#bios-page .content {
-  clear: both;
-  text-align: center;
-}
-#bios-page .member {
-  float: left;
-  width: 20%;
-}
-#bios-page .member a {
-  display: block;
-}
-#gallery-page {
-  background-color: pink;
-}
-#gallery-page .gallery img {
-  max-width: 300px;
-  margin: 0 auto;
-  align-items: center;
-}
-#individual-bio {
-  background-color: grey;
-}
-/*img {
-width: 600px;
-height: auto;
-position: absolute;
-top: 50%;
-left: 50%;
-margin-left: -300px; /* width divided by 2 */
-/*#name{
-position: absolute;
-left:1500px;
-top: 50%;
-width:250px;
-left: 73.4%;
-}
-*/
-/*#img123{
-  float:left;
-  left:40%;
-  position: relative;
-  width:600px;
-}
-
-#img321{
-  float:left;
-  left:40%;
-  position: relative;
-}
-*/
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -196,4 +49,151 @@ html {
 .button:hover {
   color: #000000;
   border-color: #000000;
+}
+#bios-page {
+  background-image: url("../images/bios/backgroundbio.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bios-page span {
+  display: block;
+}
+#bios-page .content {
+  clear: both;
+  text-align: center;
+}
+#bios-page .member {
+  float: left;
+  width: 20%;
+}
+#bios-page .member a {
+  display: block;
+}
+#gallery-page {
+  background-color: pink;
+}
+#gallery-page .gallery img {
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
+}
+#gallery-section {
+  background-color: #FFCE00;
+}
+#gallery-section #carousel nav {
+  margin-top: 8px;
+}
+#gallery-section #carousel nav a {
+  float: left;
+  width: 9px;
+  height: 9px;
+  margin-left: 15px;
+  border: 1px solid #9a9b9c;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+}
+#gallery-section #carousel nav a:hover {
+  background-color: #dddfe0;
+}
+#gallery-section #carousel nav a.active {
+  background-color: #9a9b9c;
+}
+#gallery-section #carousel .inner {
+  width: 650px;
+  padding: 1em 0;
+  overflow: hidden;
+}
+#gallery-section #carousel ul {
+  width: 2600px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#gallery-section #carousel ul li {
+  position: relative;
+  float: left;
+}
+#gallery-section #carousel ul a,
+#gallery-section #carousel ul img {
+  display: block;
+}
+#global-footer {
+  background-color: #3C3237;
+  color: #FFFFFF;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+#global-navigation {
+  background-color: peachpuff;
+}
+#home {
+  background-color: #F7F3E2;
+}
+#individual-bio {
+  background-color: grey;
+}
+/*img {
+width: 600px;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -300px; /* width divided by 2 */
+/*#name{
+position: absolute;
+left:1500px;
+top: 50%;
+width:250px;
+left: 73.4%;
+}
+*/
+/*#img123{
+  float:left;
+  left:40%;
+  position: relative;
+  width:600px;
+}
+
+#img321{
+  float:left;
+  left:40%;
+  position: relative;
+}
+*/
+#mission-section {
+  color: blue;
+}
+#who-section {
+  background-color: #876479;
+}
+#who-section .profile {
+  width: 20%;
+  padding: 0 0.5em;
+  float: left;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#who-section .profile img {
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+  max-height: 128px;
+}
+#who-section .button.see-all {
+  display: table;
+  margin: 0 auto;
+  clear: both;
+}
+#who-section .main-text {
+  color: #a092a1;
+  font-size: 23px;
+}
+#who-section .subtext {
+  color: #36112a;
 }
