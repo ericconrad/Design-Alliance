@@ -2,3 +2,5 @@
 *.ai
 .DS_Store
 *.css.map
+
+*.map
