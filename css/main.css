@@ -7,10 +7,49 @@
 #mission-section {
   color: blue;
 }
-#bios-page {
-  background-color: white;
+#who-section .profile {
+  width: 20%;
+  float: left;
+  text-align: center;
+  background-color: #724b65;
+  margin-bottom: 2em;
 }
-.clearfix:after {
+#who-section .profile img {
+  width: 128px;
+  height: 128px;
+}
+#who-section a {
+  color: #a2a4a1;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #a2a4a1;
+  margin: 0;
+  display: inline-block;
+}
+#who-section a.see-all {
+  display: table;
+  margin: 0 auto;
+  clear: both;
+}
+#who-section a:hover {
+  color: #000000;
+}
+#who-section .main-text {
+  color: #a092a1;
+  font-size: 23px;
+}
+#who-section .subtext {
+  color: #36112a;
+}
+#bios-page {
+  background-image: url("../images/bios/backgroundbio.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bios-page .clearfix:after {
   content: " ";
   /* Older browser do not support empty content */
   visibility: hidden;
@@ -18,25 +57,63 @@
   height: 0;
   clear: both;
 }
-body {
-  background-image: url("../images/bios/backgroundbio.png");
-  background-size: 120%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-span {
+#bios-page span {
   display: block;
 }
-.background {
-  background-color: black;
-}
-.content {
+#bios-page .content {
   margin-left: 5%;
   image: 10%;
 }
+#gallery-page {
+  background-color: pink;
+}
+#gallery-page .gallery img {
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
+}
 #gallery-section {
   background-color: red;
+}
+#gallery-section #carousel nav {
+  float: right;
+  margin-top: 8px;
+}
+#gallery-section #carousel nav a {
+  float: left;
+  width: 9px;
+  height: 9px;
+  margin-left: 15px;
+  border: 1px solid #9a9b9c;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+}
+#gallery-section #carousel nav a:hover {
+  background-color: #dddfe0;
+}
+#gallery-section #carousel nav a.active {
+  background-color: #9a9b9c;
+}
+#gallery-section #carousel .inner {
+  clear: left;
+  width: 650px;
+  height: 650px;
+  overflow: hidden;
+}
+#gallery-section #carousel ul {
+  width: 2600px;
+}
+#gallery-section #carousel ul li {
+  position: relative;
+  float: left;
+}
+img {
+  max-width: 300px;
+  max-height: auto;
+  display: block;
 }
 #global-footer {
   background-color: blue;
@@ -44,6 +121,9 @@ span {
 }
 #global-navigation {
   background-color: peachpuff;
+}
+#individual-bio {
+  background-color: grey;
 }
 #individual-works {
   background-color: white;
