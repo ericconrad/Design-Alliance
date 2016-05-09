@@ -44,24 +44,26 @@
   background-color: #A7A7A5;
 }
 #gallery-section #carousel .inner {
-  width: 650px;
+  width: 80%;
   padding: 1em 0;
   overflow: hidden;
 }
 #gallery-section #carousel ul {
-  width: 2600px;
+  width: 100%;
   padding: 0;
   margin: 0;
   list-style-type: none;
+  white-space: nowrap;
 }
 #gallery-section #carousel ul li {
   position: relative;
-  float: left;
+  display: inline-block;
+  width: 100%;
 }
-#gallery-section #carousel ul button,
+#gallery-section #carousel ul a,
 #gallery-section #carousel ul img {
   display: block;
-  box-shadow: 10px 0px 5px #888888;
+  width: 100%;
 }
 #photolink {
   margin: auto;
