@@ -61,6 +61,10 @@
 #gallery-section #carousel ul button,
 #gallery-section #carousel ul img {
   display: block;
+  box-shadow: 10px 0px 5px #888888;
+}
+#photolink {
+  margin: auto;
 }
 #intro-section {
   background-color: #FFFFFF;
