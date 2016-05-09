@@ -6,8 +6,11 @@ $(document).ready( function() {
   // Put things that you actually want to have happen here.
   $("#carousel nav button").click(function(){
     var ind = $(this).index("#carousel nav button");
+    var imgWidth = $($("#carousel ul li")[ind]).find("img").outerWidth();
     // console.log(ind);
-    $("#carousel ul").animate({"margin-left": "-"+ind*650});
+    // console.log($($("#carousel ul li")[ind]).find("img").outerWidth());
+    // console.log(imgWidth);
+    $("#carousel ul").animate({"margin-left": "-"+ind*imgWidth});
 
     $("#carousel nav button").removeClass("active");
     $(this).addClass("active");
