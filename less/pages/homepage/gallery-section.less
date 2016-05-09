@@ -41,21 +41,25 @@
 
   #carousel .inner {
     // clear: left;
-    width: 650px;
+    width: 80%;
     // height: 650px;
     padding: 1em 0;
     overflow: hidden;
   }
 
   #carousel ul {
-    width: 2600px;
+    // width: 2600px;
+    width: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none;
+    white-space: nowrap;
 
     li {
       position: relative;
-      float: left;
+      // float: left;
+      display: inline-block;
+      width: 100%;
 
       // div {
       //   position: absolute;
@@ -65,10 +69,11 @@
       // }
     }
 
-    button,
+    a,
     img {
       display: block;
-      box-shadow: 10px 0px 5px #888888;
+      width: 100%;
+      // box-shadow: 10px 0px 5px #888888;
     }
   }
 }
