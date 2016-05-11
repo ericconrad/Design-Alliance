@@ -135,11 +135,9 @@
   background-color: #A7A7A5;
 }
 #individual-bio .textbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  margin: 10%;
+  background-color: #F7F3E2;
+  padding: 20px;
 }
 #individual-bio .member {
   width: 30%;
