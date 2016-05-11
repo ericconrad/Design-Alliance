@@ -141,11 +141,20 @@
 }
 #individual-bio .member {
   width: 30%;
-  margin-top: 5%;
   float: left;
   text-align: center;
 }
-#individual-bio .art {
+#individual-bio .alisonart1,
+#individual-bio .alisonart2,
+#individual-bio .courtneyart1,
+#individual-bio .deannaart1,
+#individual-bio .deannaart2,
+#individual-bio .nikkiart1,
+#individual-bio .nikkiart2,
+#individual-bio .nikkiart3,
+#individual-bio .phoebeart1,
+#individual-bio .phoebeart2,
+#individual-bio .phoebeart3 {
   width: 20%;
   margin: 20px;
   border: 20px solid black;
