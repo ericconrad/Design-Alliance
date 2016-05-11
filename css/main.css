@@ -134,6 +134,9 @@
 #individual-bio {
   background-color: #A7A7A5;
 }
+.member {
+  width: 20%;
+}
 /*img {
 width: 600px;
 height: auto;
