@@ -135,7 +135,18 @@
   background-color: #A7A7A5;
 }
 #individual-bio .member {
+  width: 30%;
+  margin-top: 5%;
+  float: left;
+  text-align: center;
+}
+#individual-bio .art {
   width: 20%;
+  margin: 20px;
+  border: 20px solid black;
+  float: right;
+  width: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*img {
 width: 600px;
