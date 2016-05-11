@@ -4,126 +4,249 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+#global-footer {
+  background-color: #3C3237;
+  color: #FFFFFF;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+#global-navigation {
+  background-color: #3C3237;
+  color: #FFFFFF;
+  padding: 0px;
+}
+#global-navigation ul {
+  float: right;
+  margin-top: 3.5%;
+}
+#global-navigation li {
+  display: inline;
+}
+#global-navigation img {
+  float: left;
+  width: 10%;
+}
+#home {
+  background-color: #F7F3E2;
+}
+#gallery-section {
+  background-color: #FFCE00;
+}
+#gallery-section #carousel nav {
+  margin-top: 8px;
+}
+#gallery-section #carousel nav button {
+  float: left;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  margin-left: 1em;
+  border: 1px solid #A7A7A5;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+}
+#gallery-section #carousel nav button:hover {
+  background-color: #F7F3E2;
+}
+#gallery-section #carousel nav button.active {
+  background-color: #A7A7A5;
+}
+#gallery-section #carousel .inner {
+  width: 80%;
+  padding: 1em 0;
+  overflow: hidden;
+}
+#gallery-section #carousel ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  white-space: nowrap;
+}
+#gallery-section #carousel ul li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+#gallery-section #carousel ul a,
+#gallery-section #carousel ul img {
+  display: block;
+  width: 100%;
+}
+#photolink {
+  margin: auto;
+}
+#intro-section {
+  background-color: #FFFFFF;
+}
 #mission-section {
-  color: blue;
+  color: #B7D6CD;
+}
+#who-section {
+  background-color: #876479;
 }
 #who-section .profile {
   width: 20%;
+  padding: 0 0.5em;
   float: left;
   text-align: center;
-  background-color: #724b65;
   margin-bottom: 2em;
 }
 #who-section .profile img {
-  width: 128px;
-  height: 128px;
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+  max-height: 128px;
 }
-#who-section a {
-  color: #a2a4a1;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid #a2a4a1;
-  margin: 0;
-  display: inline-block;
-}
-#who-section a.see-all {
+#who-section .button.see-all {
   display: table;
   margin: 0 auto;
   clear: both;
 }
-#who-section a:hover {
-  color: #000000;
-}
 #who-section .main-text {
-  color: #a092a1;
+  color: #a07e92;
   font-size: 23px;
 }
 #who-section .subtext {
-  color: #36112a;
+  color: #2f232a;
 }
 #bios-page {
   background-image: url("../images/bios/backgroundbio.jpg");
-  background-size: 120%;
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
 }
-#bios-page .clearfix:after {
-  content: " ";
-  /* Older browser do not support empty content */
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}
 #bios-page span {
   display: block;
 }
-#bios-page .background {
-  background-color: black;
-}
 #bios-page .content {
-  margin-left: 5%;
-  image: 10%;
+  clear: both;
+  text-align: center;
+}
+#bios-page .member {
+  float: left;
+  width: 20%;
+}
+#bios-page .member a {
+  display: block;
 }
 #gallery-page {
-  background-color: pink;
+  background-color: #E53E30;
 }
 #gallery-page .gallery img {
   max-width: 300px;
   margin: 0 auto;
 }
-#gallery-section {
-  background-color: red;
+#individual-bio {
+  background-color: #A7A7A5;
 }
-#gallery-section #carousel nav {
+#individual-bio .textbox {
+  margin: 10%;
+  background-color: #F7F3E2;
+  padding: 20px;
+}
+#individual-bio .member {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+#individual-bio .alisonart1,
+#individual-bio .alisonart2,
+#individual-bio .courtneyart1,
+#individual-bio .deannaart1,
+#individual-bio .deannaart2,
+#individual-bio .nikkiart1,
+#individual-bio .nikkiart2,
+#individual-bio .nikkiart3,
+#individual-bio .phoebeart1,
+#individual-bio .phoebeart2,
+#individual-bio .phoebeart3 {
+  width: 20%;
+  margin: 20px;
+  border: 20px solid black;
   float: right;
-  margin-top: 8px;
+  width: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#gallery-section #carousel nav a {
-  float: left;
-  width: 9px;
-  height: 9px;
-  margin-left: 15px;
-  border: 1px solid #9a9b9c;
-  border-radius: 20px;
-  background-color: #fff;
-  transition: background-color 0.2s ease-out;
-  -webkit-transition: background-color 0.2s ease-out;
-  -moz-transition: background-color 0.2s ease-out;
+/*img {
+width: 600px;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -300px; /* width divided by 2 */
+/*#name{
+position: absolute;
+left:1500px;
+top: 50%;
+width:250px;
+left: 73.4%;
 }
-#gallery-section #carousel nav a:hover {
-  background-color: #dddfe0;
-}
-#gallery-section #carousel nav a.active {
-  background-color: #9a9b9c;
-}
-#gallery-section #carousel .inner {
-  clear: left;
-  width: 650px;
-  height: 650px;
-  overflow: hidden;
-}
-#gallery-section #carousel ul {
-  width: 2600px;
-}
-#gallery-section #carousel ul li {
+*/
+/*#img123{
+  float:left;
+  left:40%;
   position: relative;
-  float: left;
+  width:600px;
+}
+
+#img321{
+  float:left;
+  left:40%;
+  position: relative;
+}
+*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 img {
-  max-width: 300px;
-  max-height: auto;
-  display: block;
+  max-width: 100%;
 }
-#global-footer {
-  background-color: blue;
-  color: white;
+.row:after,
+.group:after,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-#global-navigation {
-  background-color: peachpuff;
+.row {
+  width: 100%;
+  float: none;
+  clear: both;
 }
-#individual-works {
-  background-color: peachpuff;
+.column {
+  width: 25%;
+  float: left;
+}
+.section {
+  padding: 3em 0;
+}
+.center {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.button {
+  color: #A7A7A5;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  padding: 0.625em;
+  border: 2px solid #A7A7A5;
+  margin: 0;
+  display: inline-block;
+}
+.button:hover {
+  color: #000000;
+  border-color: #000000;
 }

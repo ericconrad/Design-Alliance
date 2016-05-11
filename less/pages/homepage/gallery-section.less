@@ -1,0 +1,84 @@
+// main: ../pages.less
+
+#gallery-section {
+  // put all the CSS for the homepage gallery section here
+  background-color: @scotch-gold;
+
+  // CAROUSEL NAV CSS FORMATTING
+
+  #carousel {
+
+    nav {
+      // float: right;
+      margin-top: 8px;
+
+      button {
+        float: left;
+        width: 1em;
+        height: 1em;
+        padding: 0;
+        margin-left: 1em;
+        border: @hairline solid @medium-gray;
+        border-radius: 100%;
+        background-color: @white;
+        transition: background-color .2s ease-out;
+        -webkit-transition: background-color .2s ease-out;
+        -moz-transition: background-color .2s ease-out;
+
+        &:hover {
+          background-color: @light-tan;
+        }
+
+        &.active {
+          background-color: @medium-gray;
+        }
+      }
+    }
+  }
+
+
+  // CAROUSEL INNER CSS FORMATTING
+
+  #carousel .inner {
+    // clear: left;
+    width: 80%;
+    // height: 650px;
+    padding: 1em 0;
+    overflow: hidden;
+  }
+
+  #carousel ul {
+    // width: 2600px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    white-space: nowrap;
+
+    li {
+      position: relative;
+      // float: left;
+      display: inline-block;
+      width: 100%;
+
+      // div {
+      //   position: absolute;
+      //   bottom: 30px;
+      //   width: 100%;
+      //   padding: 12px 0;
+      // }
+    }
+
+    a,
+    img {
+      display: block;
+      width: 100%;
+      // box-shadow: 10px 0px 5px #888888;
+    }
+  }
+}
+
+
+#photolink {
+  margin: auto;
+}
