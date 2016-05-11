@@ -134,7 +134,7 @@
 #individual-bio {
   background-color: #A7A7A5;
 }
-.member {
+#individual-bio .member {
   width: 20%;
 }
 /*img {
@@ -173,6 +173,9 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+img {
+  max-width: 100%;
 }
 .row:after,
 .group:after,
