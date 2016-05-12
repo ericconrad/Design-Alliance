@@ -173,34 +173,49 @@
   width: 300px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/*img {
-width: 600px;
-height: auto;
-position: absolute;
-top: 50%;
-left: 50%;
-margin-left: -300px; /* width divided by 2 */
-/*#name{
-position: absolute;
-left:1500px;
-top: 50%;
-width:250px;
-left: 73.4%;
+#image {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  display: block;
 }
-*/
-/*#img123{
-  float:left;
-  left:40%;
-  position: relative;
-  width:600px;
+#name {
+  position: absolute;
+  left: 1500px;
+  top: 50%;
+  width: 250px;
+  left: 73.4%;
 }
-
-#img321{
-  float:left;
-  left:40%;
-  position: relative;
+#global-navigation {
+  background-color: #3C3237;
+  color: #FFFFFF;
+  padding: 0px;
 }
-*/
+#global-navigation ul {
+  float: right;
+  margin-top: 3.5%;
+}
+#global-navigation li {
+  display: inline;
+}
+#global-navigation img {
+  max-width: 140px;
+  min-width: 140px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+#individual-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #876479;
+  margin-top: 0 auto;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+body {
+  background-color: #F7F3E2;
+}
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
