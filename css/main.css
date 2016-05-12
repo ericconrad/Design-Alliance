@@ -230,45 +230,12 @@
   width: 300px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#image {
-  margin: auto;
-  display: block;
-}
-#global-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  margin: 0px;
-}
-#global-navigation {
-  background-color: #3C3237;
-  color: #FFFFFF;
-  padding: 0px;
-}
-#global-navigation ul {
-  float: right;
-  margin-top: 3.5%;
-}
-#global-navigation li {
-  display: inline;
-}
-#global-navigation img {
-  max-width: 140px;
-  min-width: 140px;
-  height: auto;
-  margin: auto;
-  display: block;
-  left: 0;
-  bottom: 0;
-}
-body {
+#individual-works {
   background-color: #F7F3E2;
 }
-#test {
+#individual-works #image {
   margin: auto;
   display: block;
-  height: auto;
 }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
