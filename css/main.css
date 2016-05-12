@@ -173,9 +173,31 @@
   background-color: #E53E30;
   background-color: #B7D6CD;
 }
-#gallery-page .gallery img {
-  max-width: 300px;
-  margin: 0 auto;
+#gallery-page .grid-sizer,
+#gallery-page .grid-item {
+  width: 100%;
+}
+#gallery-page .grid-sizer img,
+#gallery-page .grid-item img {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 720px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 33.333333%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 25%;
+  }
 }
 #individual-bio {
   background-color: #A7A7A5;
