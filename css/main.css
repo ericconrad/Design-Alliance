@@ -118,7 +118,12 @@
   background-color: #FFFFFF;
 }
 #mission-section {
-  color: #B7D6CD;
+  color: #E53E30;
+}
+#mission-section .mission img {
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: center;
 }
 #who-section {
   background-color: #876479;
