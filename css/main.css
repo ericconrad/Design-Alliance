@@ -207,17 +207,17 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #image {
-  width: 600px;
-  height: auto;
   margin: auto;
   display: block;
+  width: 800px;
+  height: auto;
 }
-#name {
+#global-footer {
   position: absolute;
-  left: 1500px;
-  top: 50%;
-  width: 250px;
-  left: 73.4%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0px;
 }
 #global-navigation {
   background-color: #3C3237;
@@ -237,14 +237,8 @@
   height: auto;
   margin: auto;
   display: block;
-}
-#individual-name {
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: #876479;
-  margin-top: 0 auto;
-  display: block;
-  text-align: center;
-  margin: auto;
+  left: 0;
+  bottom: 0;
 }
 body {
   background-color: #F7F3E2;
