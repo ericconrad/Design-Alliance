@@ -65,7 +65,7 @@
   margin-top: -2%;
   width: 10%;
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 990px) {
   #global-navigation .navigation {
     display: none;
   }
@@ -113,7 +113,7 @@
     color: black;
   }
 }
-@media only screen and (max-width: 770px) and screen and (max-height: 450px) {
+@media only screen and (max-width: 990px) and screen and (max-height: 450px) {
   #global-navigation .sidenav {
     padding-top: 15px;
   }
