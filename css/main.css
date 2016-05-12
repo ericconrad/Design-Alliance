@@ -13,18 +13,56 @@
 }
 #global-navigation {
   background-color: #3C3237;
-  color: #FFFFFF;
-  padding: 0px;
+  width: 100%;
+  text-align: center;
 }
-#global-navigation ul {
-  float: right;
-  margin-top: 3.5%;
+#global-navigation #main,
+#global-navigation .sidenav {
+  display: none;
 }
-#global-navigation li {
-  display: inline;
+#global-navigation .navigation {
+  margin: 0;
+  padding: 0;
+  margin-top: -7%;
+}
+#global-navigation .navigation ul {
+  overflow: visible;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+#global-navigation .navigation li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+#global-navigation .navigation li:last-child {
+  border-right: none;
+}
+#global-navigation .navigation li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#global-navigation .navigation li a:hover {
+  color: #666;
+}
+#global-navigation .navigation li.active a {
+  font-weight: bold;
+  color: white;
 }
 #global-navigation img {
-  float: left;
+  display: block;
+  margin-top: -2%;
   width: 10%;
 }
 #home {
