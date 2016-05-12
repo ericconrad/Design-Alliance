@@ -209,11 +209,9 @@
 #image {
   margin: auto;
   display: block;
-  width: 800px;
-  height: auto;
 }
 #global-footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -242,6 +240,11 @@
 }
 body {
   background-color: #F7F3E2;
+}
+#test {
+  margin: auto;
+  display: block;
+  height: auto;
 }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
