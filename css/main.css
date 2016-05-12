@@ -40,13 +40,14 @@
 }
 #gallery-section #carousel nav {
   margin-top: 8px;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 1em;
 }
 #gallery-section #carousel nav button {
-  float: left;
   width: 1em;
   height: 1em;
   padding: 0;
-  margin-left: 1em;
   border: 1px solid #A7A7A5;
   border-radius: 100%;
   background-color: #FFFFFF;
@@ -170,6 +171,7 @@
 }
 #gallery-page {
   background-color: #E53E30;
+  background-color: #B7D6CD;
 }
 #gallery-page .gallery img {
   max-width: 300px;
