@@ -2,7 +2,21 @@
 
 #gallery-section {
   // put all the CSS for the homepage gallery section here
-  background-color: @scotch-gold;
+  background-color: lighten(@scotch-gold, 25%);
+
+//button
+
+.button {
+
+  &.see-all {
+    display: table;
+    margin: 0 auto;
+    clear: both;
+  }
+}
+
+
+
 
   // CAROUSEL NAV CSS FORMATTING
 
@@ -42,9 +56,12 @@
   #carousel .inner {
     // clear: left;
     width: 80%;
+    max-width: 240px;
     // height: 650px;
     padding: 1em 0;
     overflow: hidden;
+    clear:both;
+    margin: 0 auto;
   }
 
   #carousel ul {
@@ -76,9 +93,37 @@
       // box-shadow: 10px 0px 5px #888888;
     }
   }
-}
+
+  #photolink {
+    margin: auto;
+  }
 
 
-#photolink {
-  margin: auto;
+  // Height breakpoints for gallery-section to make sure you can see all of the
+  // image in the same view all the time.
+  @media screen and (min-height: 480px) {
+    #carousel .inner {
+      max-width: 360px;
+    }
+  }
+  @media screen and (min-height: 600px) {
+    #carousel .inner {
+      max-width: 520px;
+    }
+  }
+  @media screen and (min-height: 800px) {
+    #carousel .inner {
+      max-width: 680px;
+    }
+  }
+  @media screen and (min-height: 1000px) {
+    #carousel .inner {
+      max-width: 800px;
+    }
+  }
+  @media screen and (min-height: 1200px) {
+    #carousel .inner {
+      max-width: 1000px;
+    }
+  }
 }
