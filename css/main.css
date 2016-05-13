@@ -214,13 +214,34 @@
 #mission-section {
   background-color: #b8d6ce;
 }
-#mission-section .mission {
-  font-size: 35px;
+#mission-section .center {
+  width: 75%;
 }
-#mission-section .mission img {
-  max-width: 300px;
-  margin: 0 auto;
-  align-items: center;
+#mission-section .center h1 {
+  font-size: 34px;
+}
+#mission-section .center h2 {
+  font-size: 18px;
+}
+#mission-section .center p {
+  font-size: 16px;
+}
+#mission-section .mission-artwork {
+  width: 30%;
+}
+#mission-section .mission-artwork img {
+  width: 90%;
+}
+#mission-section .mission-art1,
+#mission-section .mission-art3 {
+  margin-left: 19%;
+}
+#mission-section .mission-art2,
+#mission-section .mission-art4 {
+  margin-right: 19%;
+}
+#mission-section .mission-art3 {
+  clear: left;
 }
 #who-section {
   background-color: #876479;
