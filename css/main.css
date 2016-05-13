@@ -212,7 +212,10 @@
   background-color: #FFFFFF;
 }
 #mission-section {
-  color: #E53E30;
+  background-color: #b8d6ce;
+}
+#mission-section .mission {
+  font-size: 35px;
 }
 #mission-section .mission img {
   max-width: 300px;
