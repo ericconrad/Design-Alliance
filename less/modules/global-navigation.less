@@ -67,7 +67,7 @@
      img {
        display: block;
        margin-top: -2%;
-       width: 10%;
+       width: 150px;
     }
 
 
@@ -131,13 +131,30 @@ span {
 #main {
     transition: margin-left .5s;
     margin-top: -8%;
-    color: black;
+    color: #d9d3cb;
 }
-
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)  {
+img {
+  margin-top: -5.5%;
+  margin-bottom: -12%;
+  width:120px;
+}
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px) {
+ img {
+ margin-top: -12%;
+    margin-bottom: -25%;
+    width: 100px;
+}
 }
 }

@@ -63,7 +63,7 @@
 #global-navigation img {
   display: block;
   margin-top: -2%;
-  width: 10%;
+  width: 150px;
 }
 @media only screen and (max-width: 990px) {
   #global-navigation .navigation {
@@ -110,15 +110,29 @@
   #global-navigation #main {
     transition: margin-left 0.5s;
     margin-top: -8%;
-    color: black;
+    color: #d9d3cb;
   }
 }
-@media only screen and (max-width: 990px) and screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   #global-navigation .sidenav {
     padding-top: 15px;
   }
   #global-navigation .sidenav a {
     font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #global-navigation img {
+    margin-top: -5.5%;
+    margin-bottom: -12%;
+    width: 120px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #global-navigation img {
+    margin-top: -12%;
+    margin-bottom: -25%;
+    width: 100px;
   }
 }
 #home {
