@@ -9,7 +9,24 @@
   color: #FFFFFF;
   width: 100%;
   overflow: hidden;
-  margin: 0px;
+  margin: 0 0;
+  max-height: 150px;
+}
+#global-footer a {
+  color: white;
+}
+#global-footer #address {
+  float: left;
+  margin-top: -30px;
+}
+#global-footer #footer_info {
+  float: right;
+  margin-top: -25px;
+}
+#global-footer .footer_logo {
+  width: 9%;
+  margin-top: -30px;
+  margin-left: 280px;
 }
 #global-navigation {
   background-color: #3C3237;
