@@ -28,6 +28,61 @@
   margin-top: -30px;
   margin-left: 280px;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  #global-footer #address,
+  #global-footer #footer_info {
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  #global-footer #address {
+    margin-top: -50px;
+  }
+  #global-footer #footer_info {
+    float: left;
+    margin-top: -65px;
+  }
+  #global-footer .footer_logo {
+    width: 60px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  #global-footer {
+    max-height: 20px;
+  }
+  #global-footer #address,
+  #global-footer #footer_info {
+    font-size: 10px;
+  }
+  #global-footer #address {
+    margin-top: -48px;
+  }
+  #global-footer #footer_info {
+    margin-top: -40px;
+  }
+  #global-footer .footer_logo {
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #global-footer .footer_logo {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  #global-footer #address {
+    margin-top: -40px;
+    margin-left: -15px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #global-footer .footer_logo {
+    margin-left: 110px;
+    margin-top: -15px;
+  }
+}
 #global-navigation {
   background-color: #3C3237;
   width: 100%;
@@ -138,18 +193,32 @@
     font-size: 18px;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  #global-navigation img {
+    margin-top: -12%;
+    margin-bottom: -25%;
+    width: 100px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  #global-navigation #main {
+    margin-top: -90px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #global-navigation img {
     margin-top: -5.5%;
     margin-bottom: -12%;
     width: 120px;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #global-navigation .navigation {
+    margin-top: -105px;
+    margin-left: 100px;
+  }
   #global-navigation img {
-    margin-top: -12%;
-    margin-bottom: -25%;
-    width: 100px;
+    margin-top: -40px;
   }
 }
 #home {
