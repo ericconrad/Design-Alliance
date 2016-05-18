@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>PUT A TITLE HERE</title>
+  <title>Design Alliance</title>
   <meta name="description" content="PUT A DESCRIPTION ABOUT YOUR SITE HERE">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon.ico">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/vendor/html5-main.css">
+  <link rel="stylesheet" href="css/vendor/animate.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -24,14 +25,30 @@
     <div id="global-navigation" class="section row"><!-- Katie Zawadowicz -->
       <div class="center">
 
-        <img src="images/Header & Footer/cargologo.png" href="index.html"/>
+        <a href="index.html"> <img src="images/Header & Footer/cargologo.png"/> </a>
+              <div class="navigation">
+                <ul>
+                  <li><a href="index.html#mission"> Mission</a></li>
+                  <li><a href="bios.html"> Who We Are </a></li>
+                  <li><a href="gallery.html"> Gallery </a></li>
+                  <li><a href="index.html#contact-section"> Work With Us </a></li>
+                </ul>
+              </div>
 
-          <ul>
-            <li> <a class="button" href="#mission"> Mission </a> </li>
-            <li> <a class="button" href="bios.html"> Who We Are </a> </li>
-            <li> <a class="button" href="gallery.html"> Gallery </a> </li>
-            <li> <a class="button" href="#contact-section"> Work With Us </a> </li>
-          </ul>
+             <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+                <a href="index.html"> Home </a>
+                <a href="index.html#mission"> Mission</a>
+                <a href="bios.html"> Who We Are </a>
+                <a href="gallery.html"> Gallery</a>
+                <a href="index.html#contact-section"> Work With Us</a>
+              </div>
+
+              <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"> ☰ </span>
+              </div>
+
 
       </div>
     </div><!-- End #global-navigation -->
@@ -44,16 +61,16 @@
 
 
     <div id="intro-section" class="section row"><!-- Jacob Bendan -->
-      <div class="center">
-        <h1>Creativity</h1>
-        <h1>Unleashed</h1>
-        <h1>Design</h1>
-        <h1>Alliance</h1>
 
 
-      </div>
+
+        <h1 id="design" class="animated bounceOutLeft">Design</h1>
+        <h2 id="alliance" class="animated bounceOutRight">Alliance</h2>
+        <h1 id="creativity" class="animated bounceInLeft">Creativity</h1>
+        <h2 id="unleashed" class="animated bounceInRight">Unleashed</h2>
+
+
     </div><!-- End #intro-section -->
-
 
 
 
@@ -64,9 +81,29 @@
       <a id="mission"></a>
       <div class="center">
 
-        Mission / about section
+        <h1><center>Mission</center></h1>
+
+        <h2>WHO IS <i>DESIGN ALLIANCE?</i></h2>
+        <p>Design Alliance is a group of artists -- currently nine students -- developing in the Art + Design Program at Harford Community College in Bel Air, Maryland.</p>
+
+        <h2>WHAT IS OUR MISSION?</h2>
+        <p>Our goal is to develop a Print Exchange Program with other colleges around the country. This exchange would involve sending exhibitions of artwork from our program to other colleges and, in turn, hosting similar exhibitions on our campus here in Maryland. We believe this exchange of art and ideas will help all participating students grow in terms of developing our creativity and talent as young artists.</p>
+
+        <h2>HOW DOES THIS EXCHANGE WORK?</h2>
+        <p>Our launch project is called “Tapelifting: Print Xchange.” In Fall 2015, a group of HCC students participated in a “Tapelifting” digital art project. As part of a Winter Session independent study course, we organized and curated an exhibition of this work that we are hoping will travel to a partner school. In exchange, that school would send a print project to be exhibited at the Chesapeake Gallery on campus at Harford Community College.</p>
+
+        <h2>WHAT ARE THE BENEFITS OF PARTICIPATION?</h2>
+        <p>Participating students will gain experience in curating, marketing, preparing and installing an exhibition with the possibility of designing a catalog to accompany the exhibition. We are hoping each school could bring actual printed works to show, as well as a slide show on laptop that shares our process of creativity.
 
       </div>
+
+      <div class="mission-artwork">
+        <img class="mission-art1" src="images/mission/mission-art1.jpg"
+        /><img class="mission-art2" src="images/mission/mission-art2.jpg"
+        /><img class="mission-art3" src="images/mission/mission-art3.jpg"
+        /><img class="mission-art4" src="images/mission/mission-art4.jpg" />
+      </div>
+
     </div><!-- End #mission-section -->
 
 
@@ -138,31 +175,37 @@
 
         <div id="carousel">
 
+
+
+          <div class="inner">
+            <ul class="clearfix">
+              <li><a href="works/Williams1.html"><img src="images/gallery/crops/Williams1.jpg" alt=""></a>
+              </li><li><a href="works/Williams2.html"><img src="images/gallery/crops/Williams2.jpg" alt=""></a>
+              </li><li><a href="works/harris4.html"><img src="images/gallery/crops/harris4.jpg" alt=""></a>
+              </li><li><a href="works/Lu1.html"><img src="images/gallery/crops/Lu1.jpg" alt=""></a>
+              </li><li><a href="works/printdummymartin.html"><img src="images/gallery/crops/printdummymartin.jpg" alt=""></a>
+              </li><li><a href="works/rakowski.html"><img src="images/gallery/crops/rakowski.jpg" alt=""></a>
+              </li><li><a href="works/Schultz62.html"><img src="images/gallery/crops/Schultz62.jpg" alt=""></a>
+              </li><li><a href="works/tapelifting3.html"><img src="images/gallery/crops/tapelifting3.jpg" alt=""></a>
+              </li>
+            </ul>
+          </div>
+
+
           <nav>
             <button class="active"></button>
             <button></button>
             <button></button>
             <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
           </nav>
 
-          <div class="inner">
-            <ul class="clearfix">
-              <li><a href="works/works.html"><img src="images/gallery/crops/Williams1.jpg" alt=""></a>
-              </li><li><a href="works/works.html"><img src="images/gallery/crops/Williams2.jpg" alt=""></a>
-              </li><li><a href="works/works.html"><img src="images/gallery/crops/harris4.jpg" alt=""></a>
-              </li><li><a href="works/works.html"><img src="images/gallery/crops/Lu1.jpg" alt=""></a></li>
-            </ul>
-          </div>
 
         </div>
 
-        <!-- <img src="images/gallery/crops/Williams2.jpg">
-        <img src="images/gallery/crops/harris4.jpg">
-        <img src="images/gallery/crops/Lu1.jpg">
-        <img src="images/gallery/crops/printdummymartin.jpg">
-        <img src="images/gallery/crops/rakowski.jpg">
-        <img src="images/gallery/crops/Schultz62.jpg">
-        <img src="images/gallery/crops/tapelifting3.jpg"> -->
 
       </div>
 
@@ -184,10 +227,17 @@
     <div class="center">
 
 
+<<<<<<< HEAD
         Located at Harford Community College <img src="http://thedailyrecord.com/files/2014/10/Harford-County-Community-college-TUNE-exterior-II-300x160.jpg" alt="" />
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.9446059398692!2d-76.28550498462992!3d39.56085657947385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7dcba145cd1dd%3A0xaa33dc8dc3e92d4e!2sHarford+Community+College!5e0!3m2!1sen!2sus!4v1463012598532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
          <p>  <a href="https://www.facebook.com/Design-Alliance-154206664664725/"><img src="http://femoticons.net/images/iconfb.png"/> Facebook</a> </p>
          <p>  <a href="mailto:designalliance.hcc@gmail.com"> designalliance.hcc@gmail.com <img src="https://www.google.com/images/icons/product/googlemail-128.png" alt="" /></a> </p>
+=======
+        Located at Harford Community College <img src="https://media.licdn.com/media-proxy/ext?w=543&h=360&f=&hash=43LHC60cCYTPEjrfv3HR6o0j%2BKE%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3-6ecWLeLGpuQxHKy8ckQVnfPKhFTjjD5K-KIvsL9wk3Zazd424ZxUBbFI8lWxI" alt="" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.9446059398692!2d-76.28550498462992!3d39.56085657947385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7dcba145cd1dd%3A0xaa33dc8dc3e92d4e!2sHarford+Community+College!5e0!3m2!1sen!2sus!4v1463012598532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <p><a href="https://www.facebook.com/Design-Alliance-154206664664725/"><img src="http://femoticons.net/images/iconfb.png"/> Facebook</a> </p>
+        <p> <a href="mailto:designalliance.hcc@gmail.com"> designalliance.hcc@gmail.com <img src="https://www.google.com/images/icons/product/googlemail-128.png" alt="" /></a> </p>
+>>>>>>> origin/master
 
 
 
@@ -204,17 +254,17 @@
 
   <div id="global-footer" class="section row"><!-- Katie Zawadowicz -->
     <div class="center">
+        <div id="address">
+              <p>  Harford Community College c/o Design Alliance </p>
+              <p>  VPAA Art + Design Program </p>
+              <p>  401 Thomas Run Road, Bel Air, MD 21015 </p>
+        </div>
+    <a href="index.html"><img src="images/Header & Footer/cargologo.png" class="footer_logo"/></a>
+    <div id="footer_info">
+          <p> designalliance.hcc@gmail.com </p>
+          <a href="https://www.facebook.com/Design-Alliance-154206664664725/"><img src="images/Header & Footer/FB-f-Logo__blue_29.png"/> Facebook</a>
+    </div>
 
-      <p> designalliance.hcc@gmail.com </p>
-
-      <p>  Harford Community College </p>
-      <p>  c/o Design Alliance </p>
-      <p>  Visual, Preforming & Applied Arts </p>
-      <p>  Art + Design Program </p>
-      <p>  401 Thomas Run Road </p>
-      <p>  Bel Air, MD 21015 </p>
-
-      <a href="https://www.facebook.com/Design-Alliance-154206664664725/"><img src="images/footer/FB-f-Logo__blue_29.png"/> Facebook</a>
 
     </div>
   </div><!-- End #global-footer -->
@@ -229,6 +279,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/navigation.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <!-- <script>
