@@ -4,6 +4,9 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+body {
+  background-color: #3C3237 !important;
+}
 #global-footer {
   background-color: #3C3237;
   color: #FFFFFF;
@@ -473,22 +476,19 @@
 #who-section .subtext {
   color: #2f232a;
 }
-#bios-page {
-  background-image: url("../images/bios/backgroundbio.jpg");
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#bios-page .background {
-  padding-top: 30px;
-}
 #bios-page span {
   display: block;
 }
 #bios-page .content {
   clear: both;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-image: url("../images/bios/backgroundbio.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #bios-page h1 {
   text-align: center;
@@ -499,9 +499,6 @@
 }
 #bios-page .member a {
   display: block;
-}
-#bios-page .content {
-  padding-bottom: 100px;
 }
 #bios-page .bios {
   display: inline-block;
