@@ -69,7 +69,16 @@
   margin: auto;
 }
 #intro-section {
-  background-color: #FFFFFF;
+  background-color: #000;
+}
+#intro-section h1 {
+  color: #fff;
+  margin-left: 45%;
+  font-family: monospace;
+}
+#intro-section h2 {
+  color: #fff;
+  margin-left: 50%;
 }
 #mission-section {
   color: #B7D6CD;
