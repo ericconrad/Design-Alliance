@@ -72,39 +72,38 @@
   background-color: #000;
 }
 #intro-section h1 {
-  margin-left: 45%;
   font-family: monospace;
   font-weight: bolder;
 }
 #intro-section h2 {
-  margin-left: 52%;
   font-family: monospace;
   font-weight: bolder;
 }
-#intro-section #positioncontrol {
-  display: block;
-}
 #intro-section #design {
-  top: 20%;
+  margin-left: 20%;
+  top: 12%;
   animation-delay: 1s;
   color: #FFD700;
 }
 #intro-section #alliance {
-  top: 28%;
-  animation-delay: 1s;
-  Color: #8D38C9;
-}
-#intro-section #creativity {
-  position: relative;
+  margin-left: 30%;
   top: 20%;
   animation-delay: 1s;
   Color: #8D38C9;
 }
-#intro-section #unleashed {
+#intro-section #creativity {
+  margin-left: 58%;
   position: relative;
-  top: 28%;
+  top: 12%;
   animation-delay: 1s;
-  color: #FFD700;
+  Color: #CBFFFA;
+}
+#intro-section #unleashed {
+  margin-left: 50%;
+  position: relative;
+  top: 20%;
+  animation-delay: 1s;
+  color: #FF0000;
 }
 @media screen and (min-width: 300px) {
   #intro-section h1 {
@@ -118,16 +117,45 @@
   }
 }
 @media screen and (min-width: 400px) {
+  #intro-section h1 {
+    font-size: 3em;
+  }
+  #intro-section h2 {
+    font-size: 2em;
+  }
+  #intro-section .page-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 500px) {
+  #intro-section h1 {
+    font-size: 4em;
+  }
+  #intro-section h2 {
+    font-size: 3em;
+  }
   #intro-section .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 600px) {
+  #intro-section h1 {
+    font-size: 5em;
+  }
+  #intro-section h2 {
+    font-size: 4em;
+  }
   #intro-section .page-container {
     width: 80%;
   }
 }
 @media screen and (min-width: 700px) {
+  #intro-section h1 {
+    font-size: 5em;
+  }
+  #intro-section h2 {
+    font-size: 4em;
+  }
   #intro-section .page-container {
     width: 80%;
   }
