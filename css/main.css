@@ -75,10 +75,25 @@
   color: #fff;
   margin-left: 45%;
   font-family: monospace;
+  font-weight: bolder;
+  font-size: 7em;
 }
 #intro-section h2 {
   color: #fff;
-  margin-left: 50%;
+  margin-left: 52%;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 6em;
+}
+#intro-section #creativity {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+}
+#intro-section #unleashed {
+  position: absolute;
+  z-index: 1;
+  top: 28%;
 }
 #mission-section {
   color: #B7D6CD;
