@@ -327,21 +327,40 @@
   font-size: 16px;
 }
 #mission-section .mission-artwork {
-  width: 30%;
-}
-#mission-section .mission-artwork img {
   width: 90%;
 }
-#mission-section .mission-art1,
-#mission-section .mission-art3 {
+#mission-section .mission-artwork img {
+  width: 24%;
+  margin-top: 5%;
+}
+.mission-art1,
+.mission-art3 {
   margin-left: 19%;
 }
-#mission-section .mission-art2,
-#mission-section .mission-art4 {
+.mission-art2,
+.mission-art4 {
   margin-right: 19%;
 }
-#mission-section .mission-art3 {
+.mission-art3 {
   clear: left;
+}
+@media screen and (min-width: 741px) {
+  .mission-artwork {
+    width: 20%;
+  }
+  .mission-artwork1 {
+    margin-left: 7%;
+  }
+  .mission-artwork2 {
+    margin-right: 1%;
+  }
+  .mission-artwork3 {
+    margin-left: 1%;
+    clear: none;
+  }
+  .mission-artwork4 {
+    margin-right: 7%;
+  }
 }
 #who-section {
   background-color: #876479;
