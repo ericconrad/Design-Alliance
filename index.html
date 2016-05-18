@@ -41,16 +41,24 @@
 
 
     <div id="intro-section" class="section row"><!-- Jacob Bendan -->
-      <div class="center">
-        <h1>Creativity</h1>
-        <h1>Unleashed</h1>
-        <h1>Design</h1>
-        <h1>Alliance</h1>
-  
 
-      </div>
+      <script>
+        function hookgo(x){
+          var elem = document.getElementById(x);
+          elem.style.transition = "margin-left "
+        }
+      </script>
+
+      <document onloadstart="hookgo(intro1);">
+
+        <div id="intro1">Creativity</div>
+        <div id="intro2">Unleashed</div>
+        <div id="intro3">Design</div>
+        <div id="intro4">Alliance</div>
+
+
+
     </div><!-- End #intro-section -->
-
 
 
 
