@@ -443,6 +443,7 @@
 #mission-section .mission-artwork img {
   width: 24%;
   margin-top: 5%;
+  border: 1px solid gray;
   margin-bottom: absolute;
 }
 #who-section {
