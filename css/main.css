@@ -328,22 +328,14 @@
 }
 #mission-section .mission-artwork {
   width: 90%;
+  margin-left: 7%;
 }
 #mission-section .mission-artwork img {
   width: 24%;
   margin-top: 5%;
+  margin-bottom: absolute;
 }
-.mission-art1,
-.mission-art3 {
-  margin-left: 19%;
-}
-.mission-art2,
-.mission-art4 {
-  margin-right: 19%;
-}
-.mission-art3 {
-  clear: left;
-}
+/*created breakpoint */
 @media screen and (min-width: 741px) {
   .mission-artwork {
     width: 20%;
