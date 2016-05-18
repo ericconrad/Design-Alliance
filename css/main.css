@@ -324,7 +324,7 @@
   font-size: 18px;
 }
 #mission-section .center p {
-  font-size: 16px;
+  font-size: 15.5px;
 }
 #mission-section .mission-artwork {
   width: 90%;
@@ -334,25 +334,6 @@
   width: 24%;
   margin-top: 5%;
   margin-bottom: absolute;
-}
-/*created breakpoint */
-@media screen and (min-width: 741px) {
-  .mission-artwork {
-    width: 20%;
-  }
-  .mission-artwork1 {
-    margin-left: 7%;
-  }
-  .mission-artwork2 {
-    margin-right: 1%;
-  }
-  .mission-artwork3 {
-    margin-left: 1%;
-    clear: none;
-  }
-  .mission-artwork4 {
-    margin-right: 7%;
-  }
 }
 #who-section {
   background-color: #876479;
