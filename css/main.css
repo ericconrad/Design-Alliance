@@ -434,24 +434,16 @@
   font-size: 18px;
 }
 #mission-section .center p {
-  font-size: 16px;
+  font-size: 15.5px;
 }
 #mission-section .mission-artwork {
-  width: 30%;
+  width: 90%;
+  margin-left: 7%;
 }
 #mission-section .mission-artwork img {
-  width: 90%;
-}
-#mission-section .mission-art1,
-#mission-section .mission-art3 {
-  margin-left: 19%;
-}
-#mission-section .mission-art2,
-#mission-section .mission-art4 {
-  margin-right: 19%;
-}
-#mission-section .mission-art3 {
-  clear: left;
+  width: 24%;
+  margin-top: 5%;
+  margin-bottom: absolute;
 }
 #who-section {
   background-color: #876479;
