@@ -4,13 +4,42 @@
   // put all the CSS for the gallery page here
   background-color: @red;
 
-  .gallery {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
 
-    img {
-      max-width: 300px;
-      margin: 0 auto;
-      align-items: center;
+    img { width: 100%; }
+  }
+
+  background-color: @sello-tape;
+
+
+
+
+
+
+
+
+  // start breakpoints
+
+  @media screen and (min-width: 480px) {
+    .grid-sizer,
+    .grid-item {
+      width: 50%;
     }
   }
 
+  @media screen and (min-width: 720px) {
+    .grid-sizer,
+    .grid-item {
+      width: 33.333333%;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .grid-sizer,
+    .grid-item {
+      width: 25%;
+    }
+  }
 }

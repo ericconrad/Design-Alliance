@@ -9,27 +9,239 @@
   color: #FFFFFF;
   width: 100%;
   overflow: hidden;
-  margin: 0px;
+  margin: 0 0;
+  max-height: 150px;
+}
+#global-footer a {
+  color: white;
+}
+#global-footer #address {
+  float: left;
+  margin-top: -30px;
+}
+#global-footer #footer_info {
+  float: right;
+  margin-top: -25px;
+}
+#global-footer .footer_logo {
+  width: 9%;
+  margin-top: -30px;
+  margin-left: 280px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  #global-footer #address,
+  #global-footer #footer_info {
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  #global-footer #address {
+    margin-top: -50px;
+  }
+  #global-footer #footer_info {
+    float: left;
+    margin-top: -65px;
+  }
+  #global-footer .footer_logo {
+    width: 60px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  #global-footer {
+    max-height: 20px;
+  }
+  #global-footer #address,
+  #global-footer #footer_info {
+    font-size: 10px;
+  }
+  #global-footer #address {
+    margin-top: -48px;
+  }
+  #global-footer #footer_info {
+    margin-top: -40px;
+  }
+  #global-footer .footer_logo {
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #global-footer .footer_logo {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  #global-footer #address {
+    margin-top: -40px;
+    margin-left: -15px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #global-footer .footer_logo {
+    margin-left: 110px;
+    margin-top: -15px;
+  }
 }
 #global-navigation {
   background-color: #3C3237;
-  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+#global-navigation #main,
+#global-navigation .sidenav {
+  display: none;
+}
+#global-navigation .navigation {
+  margin: 0;
+  padding: 0;
+  margin-top: -7%;
+}
+#global-navigation .navigation ul {
+  overflow: visible;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+#global-navigation .navigation li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+#global-navigation .navigation li:last-child {
+  border-right: none;
+}
+#global-navigation .navigation li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#global-navigation .navigation li a:hover {
+  color: #666;
+}
+#global-navigation .navigation li.active a {
+  font-weight: bold;
+  color: white;
+}
+#global-navigation img {
+  display: block;
+  margin-top: -2%;
+  width: 150px;
+}
+@media only screen and (max-width: 990px) {
+  #global-navigation .navigation {
+    display: none;
+  }
+  #global-navigation #main,
+  #global-navigation .sidenav {
+    display: block;
+  }
+  #global-navigation span {
+    float: right;
+  }
+  #global-navigation .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #global-navigation .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  #global-navigation .sidenav a:hover,
+  #global-navigation .offcanvas a:focus {
+    color: #f1f1f1;
+  }
+  #global-navigation .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+  }
+  #global-navigation #main {
+    transition: margin-left 0.5s;
+    margin-top: -8%;
+    color: #d9d3cb;
+  }
+}
+@media screen and (max-height: 450px) {
+  #global-navigation .sidenav {
+    padding-top: 15px;
+  }
+  #global-navigation .sidenav a {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  #global-navigation img {
+    margin-top: -12%;
+    margin-bottom: -25%;
+    width: 100px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  #global-navigation #main {
+    margin-top: -90px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #global-navigation img {
+    margin-top: -5.5%;
+    margin-bottom: -12%;
+    width: 120px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #global-navigation .navigation {
+    margin-top: -105px;
+    margin-left: 100px;
+  }
+  #global-navigation img {
+    margin-top: -40px;
+  }
 }
 #home {
   background-color: #F7F3E2;
 }
 #gallery-section {
-  background-color: #FFCE00;
+  background-color: #ffe780;
+}
+#gallery-section .button.see-all {
+  display: table;
+  margin: 0 auto;
+  clear: both;
 }
 #gallery-section #carousel nav {
   margin-top: 8px;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 1em;
 }
 #gallery-section #carousel nav button {
-  float: left;
   width: 1em;
   height: 1em;
   padding: 0;
-  margin-left: 1em;
   border: 1px solid #A7A7A5;
   border-radius: 100%;
   background-color: #FFFFFF;
@@ -45,8 +257,11 @@
 }
 #gallery-section #carousel .inner {
   width: 80%;
+  max-width: 240px;
   padding: 1em 0;
   overflow: hidden;
+  clear: both;
+  margin: 0 auto;
 }
 #gallery-section #carousel ul {
   width: 100%;
@@ -65,8 +280,33 @@
   display: block;
   width: 100%;
 }
-#photolink {
+#gallery-section #photolink {
   margin: auto;
+}
+@media screen and (min-height: 480px) {
+  #gallery-section #carousel .inner {
+    max-width: 360px;
+  }
+}
+@media screen and (min-height: 600px) {
+  #gallery-section #carousel .inner {
+    max-width: 520px;
+  }
+}
+@media screen and (min-height: 800px) {
+  #gallery-section #carousel .inner {
+    max-width: 680px;
+  }
+}
+@media screen and (min-height: 1000px) {
+  #gallery-section #carousel .inner {
+    max-width: 800px;
+  }
+}
+@media screen and (min-height: 1200px) {
+  #gallery-section #carousel .inner {
+    max-width: 1000px;
+  }
 }
 #intro-section {
   background-color: #000;
@@ -101,7 +341,7 @@
 #intro-section #unleashed {
   margin-left: 50%;
   position: relative;
-  top: 20%;
+  top: 12%;
   animation-delay: 1s;
   color: #FF0000;
 }
@@ -182,7 +422,36 @@
   }
 }
 #mission-section {
-  color: #B7D6CD;
+  background-color: #b8d6ce;
+}
+#mission-section .center {
+  width: 75%;
+}
+#mission-section .center h1 {
+  font-size: 34px;
+}
+#mission-section .center h2 {
+  font-size: 18px;
+}
+#mission-section .center p {
+  font-size: 16px;
+}
+#mission-section .mission-artwork {
+  width: 30%;
+}
+#mission-section .mission-artwork img {
+  width: 90%;
+}
+#mission-section .mission-art1,
+#mission-section .mission-art3 {
+  margin-left: 19%;
+}
+#mission-section .mission-art2,
+#mission-section .mission-art4 {
+  margin-right: 19%;
+}
+#mission-section .mission-art3 {
+  clear: left;
 }
 #who-section {
   background-color: #876479;
@@ -219,6 +488,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+#bios-page .background {
+  padding-top: 30px;
+}
 #bios-page span {
   display: block;
 }
@@ -226,52 +498,97 @@
   clear: both;
   text-align: center;
 }
+#bios-page h1 {
+  text-align: center;
+}
 #bios-page .member {
   float: left;
-  width: 20%;
+  width: 30%;
 }
 #bios-page .member a {
   display: block;
 }
+#bios-page .content {
+  padding-bottom: 100px;
+}
+#bios-page .bios {
+  display: inline-block;
+  margin: 20px 50px;
+}
+#bios-page .bios img {
+  display: block;
+}
+#bios-page .bios h4 {
+  display: inline;
+}
 #gallery-page {
   background-color: #E53E30;
+  background-color: #B7D6CD;
 }
-#gallery-page .gallery img {
-  max-width: 300px;
-  margin: 0 auto;
-  align-items: center;
+#gallery-page .grid-sizer,
+#gallery-page .grid-item {
+  width: 100%;
+}
+#gallery-page .grid-sizer img,
+#gallery-page .grid-item img {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 720px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 33.333333%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #gallery-page .grid-sizer,
+  #gallery-page .grid-item {
+    width: 25%;
+  }
 }
 #individual-bio {
   background-color: #A7A7A5;
 }
-/*img {
-width: 600px;
-height: auto;
-position: absolute;
-top: 50%;
-left: 50%;
-margin-left: -300px; /* width divided by 2 */
-/*#name{
-position: absolute;
-left:1500px;
-top: 50%;
-width:250px;
-left: 73.4%;
+#individual-bio .textbox {
+  margin: 10%;
+  background-color: #F7F3E2;
+  padding: 20px;
 }
-*/
-/*#img123{
-  float:left;
-  left:40%;
-  position: relative;
-  width:600px;
+#individual-bio .member {
+  width: 30%;
+  float: left;
+  text-align: center;
 }
-
-#img321{
-  float:left;
-  left:40%;
-  position: relative;
+#individual-bio .alisonart1,
+#individual-bio .alisonart2,
+#individual-bio .courtneyart1,
+#individual-bio .deannaart1,
+#individual-bio .deannaart2,
+#individual-bio .nikkiart1,
+#individual-bio .nikkiart2,
+#individual-bio .nikkiart3,
+#individual-bio .phoebeart1,
+#individual-bio .phoebeart2,
+#individual-bio .phoebeart3 {
+  width: 20%;
+  margin: 20px;
+  border: 20px solid black;
+  float: right;
+  width: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-*/
+#individual-works {
+  background-color: #F7F3E2;
+}
+#individual-works #image {
+  margin: auto;
+  display: block;
+}
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -280,6 +597,9 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+img {
+  max-width: 100%;
 }
 .row:after,
 .group:after,
