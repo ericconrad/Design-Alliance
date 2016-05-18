@@ -581,9 +581,12 @@
   margin: auto;
   display: block;
   text-align: center;
-  background-color: black;
   overflow: hidden;
   clear: both;
+}
+#individual-works #test {
+  width: 50em;
+  min-width: 10em;
 }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
