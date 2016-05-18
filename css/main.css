@@ -378,6 +378,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+#bios-page .background {
+  padding-top: 30px;
+}
 #bios-page span {
   display: block;
 }
@@ -390,7 +393,7 @@
 }
 #bios-page .member {
   float: left;
-  width: 20%;
+  width: 30%;
 }
 #bios-page .member a {
   display: block;
