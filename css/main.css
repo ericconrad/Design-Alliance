@@ -510,10 +510,6 @@ body {
 #bios-page .bios h4 {
   display: inline;
 }
-#gallery-page {
-  background-color: #E53E30;
-  background-color: #B7D6CD;
-}
 #gallery-page .grid-sizer,
 #gallery-page .grid-item {
   width: 100%;
@@ -521,6 +517,9 @@ body {
 #gallery-page .grid-sizer img,
 #gallery-page .grid-item img {
   width: 100%;
+}
+#gallery-page .content {
+  background-color: #B7D6CD;
 }
 @media screen and (min-width: 480px) {
   #gallery-page .grid-sizer,
